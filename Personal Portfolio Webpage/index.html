@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./resources/favicon/site.webmanifest">
+    <style>
+        @media (orientation:landscape) {
+
+            .seperator {
+                display: none;
+            }
+
+        }
+    </style>
+</head>
+
+<body onload="myFunction()">
+
+    <div id="background-img"></div>
+
+    <nav id="navbar">
+        <a href="#welcome-section">HOME</a>
+        <span class="seperator">|</span>
+        <a href="#projects">PROJECTS</a>
+        <span class="seperator">|</span>
+        <a href="#connect">CONNECT</a>
+        <span class="seperator">|</span>
+        <a href="#about-me">ABOUT ME</a>
+    </nav>
+    
+    <div id="navbar-shadow"></div>
+
+    <div id="welcome-section">
+        <img src="./resources/images/2021 Quarantine Headshot Square.jpg" alt="Austin Reeves">
+        <br>
+        <h1>Austin Reeves'<br>Web Development Portfolio</h1>
+    </div>
+
+    <span id="scroll">^</span>
+
+    <div id="projects" class="section">
+        <h2>PROJECTS</h2>
+        <p>This is a collection of original sample sites intended to demonstrate my abilities in responsive web design.<br>No actual brands are represented herein.</p>
+        <div class="display-box">
+            <a id="tuneinformer" class="project-tile" href="http://tuneinformer-email-signup.surge.sh/" target="_blank"></a>
+            <a id="bouncy" class="project-tile" href="http://bouncyproductpage.surge.sh/" target="_blank"></a>
+            <a id="drjohn" class="project-tile" href="http://rememberingdrjohn.surge.sh/" target="_blank"></a>
+            <a id="loremipsum" class="project-tile" href="http://lorem-ipsum-documentation.surge.sh/" target="_blank"></a>
+        </div>
+    </div>
+
+    <div id="connect" class="section">
+        <h2>CONNECT</h2>
+        <a id="gmail" class="connect-tile" href="mailto:contact.austinreeves@gmail.com" target="_blank"></a>
+        <a id="linkedin" class="connect-tile" href="https://www.linkedin.com/in/austinnreeves/" target="_blank"></a>
+        <a id="profile-link" class="connect-tile" href="https://www.freecodecamp.org/archieframes" target="_blank"></a>
+        <a id="ursus" class="connect-tile" href="https://ursuscolossus.bandcamp.com/" target="_blank"></a>
+        <a id="instagram" class="connect-tile" href="https://www.instagram.com/archieframes/" target="_blank"></a>
+    </div>
+
+    <div id="about-me" class="section">
+        <h2>ABOUT ME</h2>
+        <div id="about-me-display-box">
+            <img id="about-me-img" src="./resources/images/Beach Portrait.jpg" alt="Austin at West Point Light House Beach in Seattle">
+            <p id="about-me-p">Thanks for checking out my website!<br><br>I began teaching myself web development in September 2020, with my focus on HTML, CSS and JavaScript. I'm now seeking an entry-level position as a Front-End Developer to kickstart my career.<br><br>When I'm not studying or coding, I enjoy being outdoors and making music with my band, <a href="https://ursuscolossus.bandcamp.com/">Ursus Colossus</a>. I live to camp, hike, climb, and I hold a special place in my heart for the natural beauty of The Pacific Northwest, where I was born.</p>
+        </div>
+    </div>
+
+    <p id="copyright">&copy;Austin Reeves 2021</p>
+
+    <script>
+        function myFunction() {
+            setTimeout(function() {
+                if (window.innerWidth > window.innerHeight) {
+                        alert("This website looks great on mobile! Try resizing your browser.");
+                }
+            }, 10000);
+        }
+    </script>
+
+</body>
+
+<!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+
+</html>
