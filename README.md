@@ -1,2 +1,2 @@
 # web-design-portfolio
-Portfolio exhibiting responsive web design abilities
+Personal portfolio exhibiting responsive web design abilities
