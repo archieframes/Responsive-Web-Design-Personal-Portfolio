@@ -20,12 +20,6 @@ html {
 body {
     width: 100vw;
     overflow-x: hidden;
-    /*background-image: url(../resources/images/dave-hoefler-PDfe7H5GJR0-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;*/
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -343,37 +337,5 @@ h2 {
     #about-me {
         padding: 2rem 0;
     }
-    
-    /*#about-me-display-box {
-        width: 100vw;
-        min-width: 1px;
-        margin: 0;
-        box-shadow: 0 0 1rem black;    
-    }*/
 
 }
-
-/*@media (min-aspect-ratio: 16/9) {
-
-    #welcome-section > img {
-        min-width: 1px;
-        min-height: 1px;
-        width: 40vmin;
-        height: 40vmin;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    #scroll {
-        top: -3rem;
-    }
-    
-    @keyframes float {
-        100% {
-            top: -2rem
-        }
-    }
-
-}*/
